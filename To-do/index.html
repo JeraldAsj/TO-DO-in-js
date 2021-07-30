@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- web page title -->
+    <title>TO-DO List</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="head">Add your TO-DO list</h1>
+    </header>
+    <!-- TO-Do list add section -->
+    <section class="max-width insert">
+        <div class="container">
+            <div class="row">
+                <div class="list">
+                    <input id="your-to-do" type="text" placeholder="What you want to do">
+                    <button id="success" value="Add" onclick="list()">Add</button>
+                    <button id="danger" value="Add" onclick="clearall()">Clear All</button>
+                </div>
+                <div class="table-div">
+                    <table>
+                        <tbody id="items">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+<!-- javaScript -->
+<script src="./js/index.js"></script>
+
+</html>

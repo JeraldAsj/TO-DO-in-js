@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(119, 175, 224);
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* header section */
+
+#head {
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+.insert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    border-radius: 10px;
+    background-color: white;
+}
+
+#success,
+#danger {
+    border: none;
+    padding: 5px 25px;
+}
+
+#your-to-do {
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+#success {
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#danger {
+    background-color: rgb(247, 117, 117);
+    color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.shows {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.table-div {
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+#remove {
+    border: none;
+    background-color: white;
+}
+
+.fa-trash-o {
+    color: rgb(247, 117, 117);
+    padding: 10PX 10px 5PX 10PX;
+}
+
+#items>tr {
+    padding: 10px 0;
+}
